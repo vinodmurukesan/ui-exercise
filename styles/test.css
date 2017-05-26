@@ -91,7 +91,7 @@ aside h3{
 }
 aside,
 body main figure,
-figure a figcaption::after,
+figure a h2::after,
 .main-section,
 .main-section div{
 	-webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
