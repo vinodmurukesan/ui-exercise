@@ -1,0 +1,108 @@
+body {
+	    font-family: sans-serif;
+}
+header h1{
+	margin:0;
+	font-weight: bold;
+}
+header .navbar h1 a{
+	font-size:28px;
+}
+main {
+	padding:20px 0;
+}
+body main figure {
+	padding:0 0 25px 0;
+	font-size: 16px;
+	min-height: 290px!important;
+	color: #757575;
+	overflow: hidden;
+}
+@media (min-width: 500px) { 
+	body main figure {
+		min-height: 340px!important;
+	}
+}
+@media (min-width: 1200px) { 
+	body main figure {
+		min-height: 290px!important;
+	}
+}
+figure a {
+	color:#1a1a1a;
+}
+figure a:hover,
+figure a:focus {
+	text-decoration: none;
+}
+figure img {
+	float:left;
+	margin:0 0 10px 0;
+	width: 100%;
+	height:auto;
+	-webkit-transition: all .5s; /* For Safari 3.1 to 6.0 */
+	transition: all .5
+}
+figure a:hover img,
+figure a:focus img{
+	opacity:0.6;
+	border-radius: 30px 0 30px 0;
+}
+figure h2 {
+	width:100%;
+	position: relative;
+	font-size: 25px;
+	font-weight: normal;
+	font-family: Merriweather,georgia,serif;
+	padding:0 0 8px 0;
+}
+figure a h2::after,
+figure a h2::after{
+	position: absolute;
+	bottom:7px;
+	left:50%;
+	content:" ";
+	width:0%;
+	height:2px;
+	background: #1a1a1a;
+}
+figure a:hover h2::after,
+figure a:focus h2::after{
+	left:0%;
+	width:100%;
+}
+main .main-section,
+main .main-section div{
+	margin:0;		
+}
+main .col-centered{
+	float:none;
+	margin:0 auto;
+}
+aside{
+	background: #cccccc;
+	border-radius: 30px 0 30px 0;
+	padding:10px 0 30px;
+	min-height: 200px;
+	float:right;
+}
+aside h3{
+	border-bottom:2px solid #1a1a1a;
+}
+aside,
+body main figure,
+figure a figcaption::after,
+.main-section,
+.main-section div{
+	-webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+	transition: all 1s;
+}
+footer {
+	border-radius: 20px;
+	margin:0 0 15px 0;
+	border-top:3px solid #101010;
+	padding:12px 0 0px;
+	-webkit-box-shadow: 0px 0px 20px 0px #222;
+	-moz-box-shadow:  0px 0px 20px 0px #222;
+	box-shadow:  0px 0px 20px 0px #222;
+}
